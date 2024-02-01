@@ -1,5 +1,5 @@
 {% set name = "google-cloud-functions" %}
-{% set version = "1.15.0" %}
+{% set version = "1.16.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-functions-{{ version }}.tar.gz
-  sha256: 78f0d468ee96f3c0321797e5070ceb4d7a9cceb88be286f5e3295febb918e7fb
+  sha256: 73013d6bd38f47dea25b237b6d4a6fab12bb695a8bb4b04119bf5ab38fbf6c9a
 
 build:
   noarch: python
